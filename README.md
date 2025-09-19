@@ -18,7 +18,7 @@ This EDA is performed on the **training dataset** containing the existing custom
 
 The dataset contains various customer attributes and a target column indicating the segment they belong to.
 
-*   **Source:** The dataset is intended for a customer segmentation problem.
+*   **Source:** https://www.kaggle.com/datasets/vetrirah/customer 
 *   **Rows:** The training dataset contains records of existing customers.
 *   **Columns:** Features include a mix of demographic and behavioral data (e.g., age, gender, profession, etc.), along with the assigned customer segment.
 *   **Target Variable:** `Segment` (A, B, C, D)
