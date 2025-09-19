@@ -1,7 +1,3 @@
-Of course! Here is a professional README.md file tailored for your project. It clearly communicates the scope of your work (EDA only) and highlights your data cleaning and visualization skills.
-
----
-
 # Customer Segmentation Exploratory Data Analysis (EDA)
 
 ## 📖 Project Overview
