@@ -46,25 +46,6 @@ The dataset contains various customer attributes and a target column indicating 
         *   **Bar charts** and **Pie charts** were used for categorical features (e.g., Gender, Marital Status).
     *   **Target Analysis:** Explored the distribution of the customer `Segment` to check for class balance/imbalance using visualizations.
 
-## 📈 Key Findings from EDA
-
-*   The dataset contained `X` missing values which were successfully handled.
-*   The distribution of the customer segments is [mention if it's balanced or not, e.g., "relatively balanced" or "Segment C is the most populous"].
-*   Visualizations revealed key trends, such as:
-    *   The majority of customers fall within the `X-Y` age range.
-    *   The `[Feature Name]` is strongly skewed, which was corrected/noted for potential modeling.
-    *   Segment `D` shows a notably higher average income compared to other segments.
-
-*(These are example findings. Please replace them with 2-3 of your actual most interesting observations).*
-
-## 🖼️ Example Visualizations
-
-*(You can add a few screenshots of your best charts here, for example:)*
-
-| Distribution of Customer Segments | Age Distribution by Segment |
-| :-------------------------------: | :-------------------------: |
-| ![Segment Pie Chart](images/segment_pie.png) | ![Age Histogram](images/age_hist.png)  |
-
 ## 🔮 Conclusion and Next Steps
 
 This EDA provides a solid foundation for understanding the customer base. The data has been thoroughly cleaned and explored, revealing important patterns and relationships.
@@ -74,25 +55,6 @@ This EDA provides a solid foundation for understanding the customer base. The da
 *   **Model Building:** Train a multi-class classification model (e.g., Random Forest, XGBoost, or a clustering algorithm like K-Means) to predict the segment of new customers.
 *   **Model Evaluation:** Validate the model's performance on a hold-out test set.
 *   **Deployment:** Deploy the model to classify the 2,627 new potential customers.
-
-## 🚀 How to Run the Code
-
-1.  Clone this repository:
-    ```bash
-    git clone https://github.com/your-username/customer-segmentation-eda.git
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd customer-segmentation-eda
-    ```
-3.  Install the required dependencies (if any are listed in a `requirements.txt` file):
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  Open and run the Jupyter Notebook:
-    ```bash
-    jupyter notebook customer_segmentation_eda.ipynb
-    ```
 
 ## 📝 Dependencies
 
